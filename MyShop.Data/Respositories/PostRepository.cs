@@ -10,6 +10,7 @@ namespace MyShop.Data.Repositories
 {
     public interface IPostRepository : IRepository<Post>
     {
+        //Hien thi danh sach cac bai viet co cung tag
         IEnumerable<Post> GetAllByTag(string tag, int pageIndex, int pageSize, out int totalRow);
     }
 

@@ -6,7 +6,7 @@ namespace MyShop.Data.Infrastructure
 {
     public interface IRepository<T> where T : class
     {
-        // Marks an entity as new
+        // Marks an entity as new   T dung truoc La de tra ve luon gia tri do
         T Add(T entity);
 
         // Marks an entity as modified
